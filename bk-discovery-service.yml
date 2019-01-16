@@ -17,5 +17,5 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
+    service-url:
       defaultZone: ${EUREKA_URI:http://localhost:8002/eureka}
