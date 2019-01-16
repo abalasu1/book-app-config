@@ -18,7 +18,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      default-zone: ${EUREKA_URI:http://localhost:8002/eureka}
+      default-zone: ${EUREKA_URI:http://discUser:discPassword@localhost:8002/eureka}
 
 spring:
   redis:
