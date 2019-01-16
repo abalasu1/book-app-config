@@ -23,8 +23,8 @@ management:
       environment: prod
 
 eureka:
-    registerWithEureka: false
-    fetchRegistry: false
+  registerWithEureka: false
+  fetchRegistry: false
   client:
     service-url:
       defaultZone: ${EUREKA_URI:http://localhost:8002/eureka}
