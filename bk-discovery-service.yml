@@ -18,14 +18,9 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: ${EUREKA_URI:http://admin:password@localhost:8002/eureka}
+      defaultZone: ${EUREKA_URI:http://localhost:8002/eureka}
 
 spring:
   redis:
     host: localhost
     port: 6379
-  security:
-    user:
-      name: admin
-      password: password
-      role: SYSTEM
