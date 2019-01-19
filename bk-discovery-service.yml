@@ -28,3 +28,4 @@ spring:
     user:
       name: admin
       password: password
+      role: SYSTEM
