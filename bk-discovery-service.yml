@@ -19,8 +19,3 @@ eureka:
     fetchRegistry: false
     service-url:
       defaultZone: ${EUREKA_URI:http://localhost:8002/eureka}
-
-spring:
-  redis:
-    host: localhost
-    port: 6379
